@@ -16,13 +16,17 @@
     <!-- Custom fonts for this template -->
     <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="github-activity.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/4.4.0/font/octicons.css">
+
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="vendor/devicons/css/devicons.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 
   </head>
 
@@ -30,7 +34,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <span class="d-block d-lg-none">Start Bootstrap</span>
+        <span class="d-block d-lg-none">Chad Nedin</span>
         <span class="d-none d-lg-block">
           <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
         </span>
@@ -53,7 +57,7 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+            <a class="nav-link js-scroll-trigger" href="#interests">GitHub Activity</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -72,7 +76,9 @@
           <div class="subheading mb-5">Sarnia, Ontario · (289) 690-0185 ·
             <a href="mailto:name@email.com">chadnedin@gmail.com</a>
           </div>
-          <p class="mb-5">I am experienced in mobile & web application development. I also have experience with computer hardware, networking and the internet of things (IoT).</p>
+          <h2 class="text-primary">Aspiring to Create and Innovate </h2><p class="mb-5">This site houses a collection of projects and research that I have been involved on. I am very passionate about tech, and enjoy
+		  being creative. Currently I am employeed as a Researcher for IoT related things with The Water Centre Research Department at Lambton College, On.</br>
+	      Please connect with me through social media, email or phone.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="https://www.facebook.com/chad.nedin">
@@ -116,9 +122,12 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Researcher Assistant - IoT</h3>
+              <h3 class="mb-0">Researcher (IoT) - Lambton Water Centre</h3>
               <div class="subheading mb-3">Lambton College</div>
-              <p></p>
+              <p>Working on multiple IoT projects with the Lambton Water Centre department that is part of Lambton College's Applied Research. </br>
+			  These projects include: </br>
+			  - Remotely monitoring and controlling a water treatment system for residential use. By utilizing Raspberry Pi, Arduino, and Rex Controls. </br>
+			  - Innovative flood monitoring project, to prevent flooding around the St.Clair river and Lake Huron. This project utilizes many different components from sensors to micro controllers and computers.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">May 2017 - Present</span>
@@ -127,9 +136,10 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Developer</h3>
+              <h3 class="mb-0">Web and Mobile App Development</h3>
               <div class="subheading mb-3">Personal</div>
-              <p></p>
+              <p>On my personal time I actively utilize the programming langauges I develop interest for.</br> Usually these revolve around Web and Mobile design. But I also have a interest in game development, and the Internet of Things (IoT). 
+			  </p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">2015 - Present</span>
@@ -214,32 +224,74 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a app developer, I enjoy researching and working with a number of different technologies. I'm experienced in the field of IoT and have a strong interest in the growing advancements hardware to utilize IoT concepts. I enjoy music, seeing live performances, and getting involved in social events.</p>
-          <p class="mb-0">When forced indoors, I follow a number of comedy and drama genre movies and television shows, and spend time playing video games both competitively and casually with friends. I enjoy swimming, mountain biking and many other outdoor activities.</p>
+          <h2 class="mb-5">GitHub Activity Stream</h2>
+          <div id="feed"></div>
         </div>
       </section>
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
         <div class="my-auto">
           <h2 class="mb-5">Portfolio</h2>
-          <ul class="fa-ul mb-0">
-           
-          </ul>
+          
+				<div class="row">
+    <div class="col-sm-3">
+      <p>E-commerce Site</p>
+      <a href="https://thedrowninglessons.github.io"><img src="https://thedrowninglessons.github.io/images/logo.png" class="img-responsive" style="width:100%" alt="Image"> </a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>jQuery, JSON and Bootstrap Front-End Site</p>
+      <a href="https://chadnedin.github.io/springwind"><img src="img/swlogo.png" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+      <p>Toronto's DementiaHack Project</p>
+      <a href="https://chadnedin.github.io/OptimisticMind/"><img src="https://chadnedin.github.io/OptimisticMind/images/logo.png" class="img-responsive" style="width:100%" alt="Image"> </a>
+    </div>
+    <div class="col-sm-3">
+      <p>MVC StoreFront with ASP.NET, C#, and Bootstrap</p>
+      <a href="pdf/storefrontpie.pdf"><img src="img/pieforyoureye.png" class="img-responsive" style="width:100%" alt="Image"></a>
+    </div>
+  </div>
+		
         </div>
       </section>
+
+	  
+    <div class="row">
+	<div class="col-md-1 "> </div>
+        <div class="col-md-3">
+            <h4>Lambton Tech Research</h4>
+            <p>
+               Testing out the Ultrasonic sensor + raspberry pi to measure the distance of the sensor to the current surface water level. 
+
+             Used a flotation device within the PVC-pipe to give a accurate reading. The piece used is around 1.8 cm off the surface of the water. 
+            </p>
+            
+            
+            
+        </div><!--.col -->
+        
+        <div class="col-md-8">
+            <div class="vid">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HrOMSnHI5qI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div><!--./vid -->
+            
+        </div><!--.col -->
+        
+    </div><!--./row -->
+    
 
     </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+<script type="text/javascript" src="github-activity.js"></script>
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/resume.min.js"></script>
+    <script src="js/resume.js"></script>
 
   </body>
 

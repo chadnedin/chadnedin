@@ -25,4 +25,6 @@
     target: '#sideNav'
   });
 
+  GitHubActivity.feed({ username: "chadnedin", selector: "#feed" });
+  
 })(jQuery); // End of use strict
